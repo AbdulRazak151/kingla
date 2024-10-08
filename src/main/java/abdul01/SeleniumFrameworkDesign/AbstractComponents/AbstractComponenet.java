@@ -52,4 +52,5 @@ public OrderPage gotoOrderPage() {
 	OrderPage orderPage=new OrderPage(driver);
 	return orderPage;
 }
+
 }
