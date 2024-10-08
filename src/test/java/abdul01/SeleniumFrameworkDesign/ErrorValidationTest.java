@@ -29,7 +29,8 @@ public class ErrorValidationTest extends BaseTest {
 	public void loginErrorValidation() {
 		//instead of system.setproperties we are using webdriver manager
 		String productname="ZARA COAT 3";
-	
+	    System.out.println("1");
+	    System.out.println("2");
 	  
 		
 		landingpage.loginApplication("abdulrazak@yopmail.com","Abdul@12345");
