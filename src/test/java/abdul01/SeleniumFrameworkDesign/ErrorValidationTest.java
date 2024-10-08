@@ -31,6 +31,9 @@ public class ErrorValidationTest extends BaseTest {
 		String productname="ZARA COAT 3";
 	    System.out.println("1");
 	    System.out.println("2");
+	    System.out.println("3");
+	    System.out.println("4");
+	    System.out.println("5");
 	  
 		
 		landingpage.loginApplication("abdulrazak@yopmail.com","Abdul@12345");
