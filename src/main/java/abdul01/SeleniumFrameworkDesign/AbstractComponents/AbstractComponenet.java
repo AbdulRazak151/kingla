@@ -24,7 +24,8 @@ public class AbstractComponenet {
 public AbstractComponenet(WebDriver driver) {
 		this.driver=driver;
 		 PageFactory.initElements(driver, this);
-		
+		System.out.println("1");
+		System.out.println("2");
 	}
 
 		
