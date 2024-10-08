@@ -72,6 +72,18 @@ public Object[][] getData() throws Exception {
 	map1.put("email", "abdulrazakt11@yopmail.com");
 	map1.put("password", "Abdul@1234");
 	map1.put("product","ADIDAS ORIGINAL");*/
+	
+	
+	System.out.println("1");
+    System.out.println("2");
+    System.out.println("3");
+    System.out.println("4");
+    System.out.println("5");
+    System.out.println("1");
+    System.out.println("2");
+    System.out.println("3");
+    System.out.println("4");
+    System.out.println("5");
 	List<HashMap<String, String>> jsonDataToMap = getJsonDataToMap(file);
 	return  new Object[][] {{jsonDataToMap.get(0)},{jsonDataToMap.get(1)}};
 	
